@@ -9,7 +9,7 @@
     "client": "npm start --prefix front-end",
     "data:import": "node back-end/seeder",
     "data:destroy": "node back-end/seeder -d",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "beast": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Indrajith V",
   "license": "ISC",
