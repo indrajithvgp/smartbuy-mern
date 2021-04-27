@@ -9,7 +9,8 @@
     "client": "npm start --prefix front-end",
     "data:import": "node back-end/seeder",
     "data:destroy": "node back-end/seeder -d",
-    "beast": "concurrently \"npm run server\" \"npm run client\""
+    "beast": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix front-end && npm run build --prefix front-end"
   },
   "author": "Indrajith V",
   "license": "ISC",
