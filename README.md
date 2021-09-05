@@ -1,18 +1,20 @@
 # smartbuy-mern
-Mini Ecommerce App
+Mini E-commerce website built with React.js, Express, where users can order products and track their shipments. Admin functionality has been integrated with the app, to update the product inventory and authorization to special privileges.
+ 
+- Users can view product listings, order items, track their items, review an item and create an account
+- Users can add items to cart and cart info stored on local storage for persistwnce
+- Users can edit their profile, password credentials on the app
 
-(https://tour-de-natours.herokuapp.com/)
- 
-- Implemented JWT token for Authentication and Authorization Purposes
+
+- Implemented JWT token for Authentication and Authorization Purposes, which found to be tamper-resistant feature
 - Integrated MongoDB as database for scalability issue and flexible schema feature
-- Mapbox API used for the visualization of map data to provide rich user experience
-- Stripe Pay integrated for Payment options
+- Paypal API integrated for Payment options
  
-- Express, Pug, Stripe Integration API, Mapbox API, Mongoose, Axios, Postman
+- Code experimented with fully functional components
+- Used React-Router library for client side routings
+- Used Redux as state management on client side and Redux-Thunk for async function handlings
+- Used React Bootstrap as CSS library for user interface.
  
-- Tour booking website built with Node.js, and Express, which allows people to visit the tour package details, book the package, create an account and for visualizing categorized location data such as place, theme, recommendations 
- 
-- User can create an account, view tour package details, book the required package and manage their profile.
-- Automatic Email sent to the user's registered mail in case of new account registration, forgot password incident.
- 
+**Express, Paypal API, React JS, React-Router, Redux-Thunk, Mongoose, React-Bootstrap, Axios
+**
 
